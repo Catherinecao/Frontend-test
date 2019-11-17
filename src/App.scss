@@ -1,0 +1,63 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import 'variables';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: $bg-color;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: $primary;
+}
+
+.product-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+  .product-item {
+    text-align: left;
+    margin-bottom: 2rem;
+    .product-img {
+      width: 100%;
+    }
+  }
+}
+
+.btn-outline-primary {
+  border-color: $primary;
+  color: $primary;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.my-cart {
+  right: 0;
+  top: 56px;
+  background: #fff;
+  box-shadow: $box-shadow;
+  z-index: 2;
+  ul {
+    padding-left: 0;
+    li {
+      list-style: none;
+    }
+  }
+}
+

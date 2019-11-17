@@ -29,3 +29,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 For information on create react
 app see [Creact React App Readme](./Create_React_App.md)
+
+
+## Run the App
+
+`npm install` then `npm start`
